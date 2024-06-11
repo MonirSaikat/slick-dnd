@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import './partials/vars.less';
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: @font-family;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@import './sections/blocks/sliding-items.less';
+@import './sections/phone.less';
+
+/* override */
+.slick-slider {
+  // margin: 0 -15px;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  margin-left: 15px;
+  height: inherit !important;
+  height: inherit !important;
+  display: flex !important;
+}
+
+.slick-slide > div {
+  display: flex;
+}

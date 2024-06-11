@@ -1,0 +1,9 @@
+.blocks {
+  max-width: 300px;
+  background-color: #7a7a7a;
+  min-height: 100vh;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}

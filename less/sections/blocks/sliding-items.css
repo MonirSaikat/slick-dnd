@@ -1,0 +1,36 @@
+.blocks {
+  max-width: 300px;
+  background-color: #7a7a7a;
+  min-height: 100vh;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.sliding-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  overflow-x: hidden;
+  background: #c0c0c0;
+  padding: 10px;
+  border: 2px dotted dodgerblue;
+  cursor: grab;
+}
+.sliding-items.red {
+  background: #a6f710;
+}
+.sliding-items.red .item {
+  background-color: green;
+}
+.sliding-items .item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #c0c0c0;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  background: dodgerblue;
+  width: 100px;
+}
